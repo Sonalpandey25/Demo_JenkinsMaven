@@ -13,14 +13,14 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterClass;
+
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
-import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+//import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -29,7 +29,7 @@ public class SalesforceLogin {
 
 	static WebDriver driver;
 	static ExtentReports extent;
-	static ExtentHtmlReporter report;
+	//static ExtentHtmlReporter report;
 	public static String dateformat = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
 
 	@BeforeClass
